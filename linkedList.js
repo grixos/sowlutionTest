@@ -59,8 +59,13 @@ class LinkedList {
 }
 
 const list = new LinkedList();
-
-
+list.addNode(10)
+list.addNode(3)
+list.addNode(5)
+list.addNode(7)
+list.addNode(9)
+list.addNode(8)
+list.addNode(12)
 console.log("Original list:");
 list.printList();
 
